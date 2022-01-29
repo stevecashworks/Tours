@@ -1,0 +1,25 @@
+.btn{
+    color: blue;
+    font-size: 20px;
+    background-color: transparent;
+    border: transparent;
+}
+.midleft{
+    background-color: white;
+    width: 400px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 600px;
+    ul{
+        li{
+           font-size: 25px;
+        }
+    }
+    .midrighttop{
+        display:flex;
+        
+    }
+
+}

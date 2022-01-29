@@ -1,0 +1,98 @@
+$linesColor: rgb(194, 194, 194);
+.topContainer{
+.topTopContainer{
+    display:  flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    border-top:1px solid $linesColor;
+    border-bottom:1px solid $linesColor ;
+    padding: 15px;
+     cursor:pointer;
+    .options{
+        display: flex;
+        flex: .5;
+        justify-content: space-between;
+        // position: relative;
+        // right: -55px;
+        text-transform: capitalize;
+        p:hover{
+                color: blue;
+            
+
+        }
+        button{
+            color: blue;
+            background-color: transparent;
+            border: 1px solid blue;
+            width: 150px;
+            height: 40px;
+            position: relative;
+            top: 10px;
+            transition: 0.5s all ease;
+            &:hover{
+                color: white;
+                background-color: blue;
+            }
+        }
+
+        .bordered{
+            border-right:1px solid $linesColor ;
+            width: 200px;
+            height: 30px;
+            padding-right: 0px;
+            display: flex;
+            justify-content:  space-around;
+            padding-bottom: 10px;
+            align-items: center;
+
+        }
+      
+    }
+    .logo{
+        color: blue;
+        font-size: 40px;
+        // position: relative;
+        // left: -150px;
+        // top: -20px;
+        span{
+            color: orange;
+            font-size: 60px;
+        }
+    }
+}
+.bottomTop{
+    
+    .searchDiv{
+        display: flex;
+        justify-content: space-around;
+        #search{
+            width: 250px;
+            height:40px;
+            position: relative;
+            top: 20px;
+            
+        }
+        ul{
+            list-style-type:none;
+            display: flex;
+            justify-content: space-between;
+            flex: .6;
+            position: relative;
+            left: -60px;
+            a{
+                text-decoration: none;
+                text-transform: capitalize;
+            }
+            
+            
+        }
+    }
+}
+}
+.underline{
+    position: relative;
+    background-color: rgb(117, 117, 177);
+    width: 100px;
+    height: 3px;
+    margin: 0 auto;
+}

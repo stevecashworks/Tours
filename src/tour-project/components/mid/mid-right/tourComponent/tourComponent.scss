@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    padding: 10px;
+    height: 400px;
+    .tourImg{
+        height:400px;
+        width: 400px;
+    }
+ .category{
+     text-transform: capitalize;
+     color:blue
+ }
+}
+.container:hover{
+    border: 1px solid lightseagreen;
+}
+.name{
+    text-transform: capitalize;
+}
+.comment{
+    font-size: 25px;
+    font-weight: lighter;
+}
